@@ -30,17 +30,17 @@ Start-Transcript -Path "$env:ProgramData\Microsoft\IntuneManagementExtension\Log
 #Set variables (change to your needs):
 "Set variables"
 #Company name
-$CompanyName = "Klapwijk"
+$CompanyName = "Verco"
 "CompanyName = $CompanyName"
 # The language we want as new default. Language tag can be found here: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/available-language-packs-for-windows
-$LPlanguage = "nl-NL"
+$LPlanguage = "en-GB"
 "LPlanguage = $LPlanguage"
 # As In some countries the input locale might differ from the installed language pack language, we use a separate input local variable.
 # A list of input locales can be found here: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs
-$inputlocale = "nl-NL"
+$inputlocale = "en-GB"
 "inputlocale = $inputlocale"
 # Geographical ID we want to set. GeoID can be found here: https://learn.microsoft.com/en-us/windows/win32/intl/table-of-geographical-locations?redirectedfrom=MSDN
-$geoId = "176"  # Netherlands
+$geoId = "242"  # United Kingdom
 "geoId = $geoId"
 
 #Install language pack and change the language of the OS on different places
